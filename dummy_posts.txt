@@ -1,0 +1,35 @@
+// title, image, excerpt, date, slug
+const DUMMY_POSTS = [
+  {
+    title: "Getting started with NextJS",
+    image: "getting-started-nextjs.png",
+    excerpt:
+      "Next.js gives you the best developer experience with all the features you need for production.",
+    date: "2022-08-14",
+    slug: "getting-started-with-nextjs1",
+  },
+  {
+    title: "Getting started with NextJS",
+    image: "getting-started-nextjs.png",
+    excerpt:
+      "Next.js gives you the best developer experience with all the features you need for production.",
+    date: "2022-08-14",
+    slug: "getting-started-with-nextjs2",
+  },
+  {
+    title: "Getting started with NextJS",
+    image: "getting-started-nextjs.png",
+    excerpt:
+      "Next.js gives you the best developer experience with all the features you need for production.",
+    date: "2022-08-14",
+    slug: "getting-started-with-nextjs3",
+  },
+  {
+    title: "Getting started with NextJS",
+    image: "getting-started-nextjs.png",
+    excerpt:
+      "Next.js gives you the best developer experience with all the features you need for production.",
+    date: "2022-08-14",
+    slug: "getting-started-with-nextjs4",
+  },
+];
