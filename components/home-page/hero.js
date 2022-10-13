@@ -2,16 +2,15 @@ import Image from "next/image";
 import SocialIcons from "../ui/social-icons";
 import classes from "./hero.module.css";
 
-// TODO: Get a 2nd image which is rounded instead of a square
 function Hero() {
   return (
     <section className={classes.hero}>
       <div>
         <Image
-          src="/images/site/MahtabSyed1.jpg"
+          src="/images/site/MahtabSyed2.png"
           alt="Mahtab Syed"
-          width={200}
-          height={200}
+          width={350}
+          height={350}
         />
       </div>
       <h1>Hi, I am Mahtab...</h1>

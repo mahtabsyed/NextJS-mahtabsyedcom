@@ -1,18 +1,17 @@
-// http://localhost:3000/
-// Plan
-// Lean page which use separate React component and does not use much styling
-// 1) Hero section - Welcome section where we present the main product - present myself
-// 2) Features Posts - Dummy content to start with which will replace with real blogs
-
 import { Fragment } from "react";
-import Hero from "../components/home-page/hero";
+import Head from "next/head";
+
 import FeaturedPosts from "../components/home-page/featured-posts";
+import Hero from "../components/home-page/hero";
 import { getFeaturedPosts } from "../lib/posts-util";
 
 function HomePage(props) {
   return (
-    // Fragment since we cant have adjacent JSX components
     <Fragment>
+      <Head>
+        <title>Mahtab Syed</title>
+        <meta name="description" content="I blog on Machine Learning." />
+      </Head>
       <Hero />
       <FeaturedPosts posts={props.posts} />
     </Fragment>
@@ -26,7 +25,6 @@ export function getStaticProps() {
     props: {
       posts: featuredPosts,
     },
-    revalidate: 1800,
   };
 }
 
