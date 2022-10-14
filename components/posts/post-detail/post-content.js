@@ -38,12 +38,13 @@ function PostContent(props) {
       const { className, children } = code;
       const language = className.split("-")[1]; // className is something like language-js => We need the "js" part here
 
+      // Fixed this error - Refer https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-children-prop.md
       return (
-        <SyntaxHighlighter
+        <SyntaxHighlighter>
           style={atomDark}
           language={language}
           children={children}
-        />
+        </SyntaxHighlighter>
       );
     },
   };
