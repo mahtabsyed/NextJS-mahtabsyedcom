@@ -11,6 +11,10 @@ function PostContent(props) {
 
   // Refer https://github.com/remarkjs/react-markdown
   // https://github.com/mschwarzmueller/nextjs-course-code/compare/3b99cd0...a9fb64b
+  // Install these packages
+  // npm install react-syntax-highlighter
+  // Translating markdown to JSX using "npm install react-markdown"
+
   const customRenderers = {
     p(paragraph) {
       const { node } = paragraph;
@@ -33,8 +37,8 @@ function PostContent(props) {
     code(code) {
       const { className, children } = code;
       const language = className.split("-")[1]; // className is something like language-js => We need the "js" part here
+
       return (
-        // npm install react-syntax-highlighter
         <SyntaxHighlighter
           style={atomDark}
           language={language}
@@ -47,7 +51,6 @@ function PostContent(props) {
   return (
     <article className={classes.content}>
       <PostHeader title={post.title} image={imagePath} />
-      {/* Translating markdown to JSX using "npm install react-markdown" */}
       <ReactMarkdown components={customRenderers}>{post.content}</ReactMarkdown>
     </article>
   );
