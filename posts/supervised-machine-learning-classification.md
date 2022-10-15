@@ -47,11 +47,7 @@ To achieve this, we develop and use ML algorithms (also called models or estimat
 
 5. **Modelling** – Using various Algorithms for Classification from Scikit-learn like
 
-```python
- LogisticRegression
- KNeighborsClassifier, RandomForestClassifier
- CatBoost, XGBoost
-```
+> **_LogisticRegression, KNeighborsClassifier, RandomForestClassifier CatBoost, XGBoost_**
 
 For navigating and choosing an algorithm refer from [Scikit-learn](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html)
 

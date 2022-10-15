@@ -40,11 +40,12 @@ function PostContent(props) {
 
       // Fixed this error - Refer https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-children-prop.md
       return (
-        <SyntaxHighlighter>
+        <SyntaxHighlighter
           style={atomDark}
           language={language}
-          children={children}
-        </SyntaxHighlighter>
+          // TODO - children work in dev and errors in prod
+          // children={children}
+        />
       );
     },
   };
