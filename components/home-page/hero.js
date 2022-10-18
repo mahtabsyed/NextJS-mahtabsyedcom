@@ -7,10 +7,10 @@ function Hero() {
     <section className={classes.hero}>
       <div>
         <Image
-          src="/images/site/MahtabSyed2.png"
+          src="/images/site/MahtabSyed3-cropped.png"
           alt="Mahtab Syed"
-          width={300}
-          height={300}
+          width={250}
+          height={250}
         />
       </div>
       <h1>Hi, I am Mahtab...</h1>
