@@ -31,16 +31,18 @@ body {
   --color-error-100: #f1acc9;
   --color-error-500: #a10c4a;
 
-  --size-1: 0.25rem;
-  --size-2: 0.5rem;
-  --size-3: 0.75rem;
-  --size-4: 1rem;
-  --size-5: 1.25rem;
-  --size-6: 1.5rem;
-  --size-8: 2rem;
-  --size-16: 4rem;
-  --size-20: 5rem;
-  --size-40: 10rem;
+  --size-1: 0.20rem;
+  --size-2: 0.40rem;
+  --size-3: 0.60rem;
+  --size-4: 0.80rem;
+  --size-5: 1.00rem;
+  --size-6: 1.20rem;
+  --size-8: 1.60rem;
+  --size-12: 2.40rem;
+  --size-16: 3.20rem;
+  --size-20: 4.00rem;
+  --size-40: 8.00rem;
+  --size-80: 16.00rem;
 
   margin: 0;
   background-color: var(--color-grey-500);
