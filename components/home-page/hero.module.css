@@ -28,7 +28,7 @@ so that changing in one place can change all references  */
 
 .hero h1 {
     font-size: var(--size-8);
-    margin: var(--size-1) 0;
+    margin: var(--size-2) 0;
     color: var(--color-grey-300);
 }
 
@@ -37,5 +37,5 @@ so that changing in one place can change all references  */
     color: var(--color-grey-200);
     width: 90%;
     max-width: 50rem;
-    margin: auto;
+    margin: auto;    
 }
