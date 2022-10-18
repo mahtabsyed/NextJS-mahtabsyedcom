@@ -22,7 +22,7 @@
 
 .header a {
     color: var(--color-grey-100);
-    font-size: var(--size-8);
+    font-size: var(--size-6);
 }
 
 .header a:hover,
@@ -37,6 +37,6 @@
     }
 
     .header a {
-        font-size: var(--size-8);
+        font-size: var(--size-6);
     }
 }
