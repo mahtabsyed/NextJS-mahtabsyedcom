@@ -36,6 +36,6 @@ so that changing in one place can change all references  */
     font-size: var(--size-6);
     color: var(--color-grey-200);
     width: 90%;
-    max-width: 50rem;
+    max-width: 45rem;
     margin: auto;    
 }

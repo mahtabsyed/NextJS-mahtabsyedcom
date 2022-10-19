@@ -10,7 +10,10 @@ function HomePage(props) {
     <Fragment>
       <Head>
         <title>Mahtab Syed</title>
-        <meta name="description" content="I blog on Machine Learning." />
+        <meta
+          name="description"
+          content="I code and blog on Data Engineering, MLOps and Machine Learning."
+        />
       </Head>
       <Hero />
       <FeaturedPosts posts={props.posts} />

@@ -39,7 +39,7 @@ To achieve this, we develop and use ML algorithms (also called models or estimat
 2. **Data** - Refer these sources
 
 > - From the Cleavland data from the UCI Machine Learning [Repository](https://archive.ics.uci.edu/ml/datasets/heart+Disease)
-> - And the version on [Kaggle](https://www.kaggle.com/ronitf/heart-disease-uci)
+> - And the version on [Kaggle](https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data)
 
 3. **Evaluation** – We set a goal of 90% accuracy of the prediction
 
@@ -54,3 +54,5 @@ For navigating and choosing an algorithm refer from [Scikit-learn](https://sciki
 6. **Experimentation** – Get better results till we are satisfied, and then save the model and share for use by others. Achieved Accuracy of ~90% with LogisticRegression which is the best among various algorithms trained and tested and good enough for the dataset
 
 For details refer the code in Github with each step documented with comments and visualisations [Github link](https://github.com/mahtabsyed/Machine-Learning-Heart-Disease-Classification/blob/master/end-to-end-heart-disease-classification.ipynb)
+
+_Mahtab Syed Melbourne, 26 Aug 2022_
