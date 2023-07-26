@@ -1,4 +1,4 @@
-.contact {
+.classification {
   margin: var(--size-8) auto;
   border-radius: 6px;
   background-color: var(--color-grey-100);
@@ -9,7 +9,7 @@
   font-size: var(--size-6);
 }
 
-.contact h1 {
+.classification h1 {
   font-size: var(--size-8);
   margin: var(--size-4) 0;
   text-align: left;
@@ -66,8 +66,8 @@
 }
 
 @media (min-width: 768px) {
-  .contact h1 {
-    font-size: var(--size-16);
+  .classification h1 {
+    font-size: var(--size-12);
     text-align: center;
   }
 }
